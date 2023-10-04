@@ -103,6 +103,53 @@ export class AppUsers {
 }
 ```
 
+## Exercice: Forms
+
+Complete and modify `AppUserForm` class to use Angular Reactive Forms. Add a button to submit.
+
+The form should return data in this format
+
+```typescript
+{
+  email: string;
+  name: string;
+  birthday: Date;
+  address: {
+    zip: number;
+    city: string;
+  };
+}
+```
+
+```typescript
+@Component({
+  selector: 'app-user-form',
+  template: `
+    <form>
+        <input type="text" placeholder="email">
+        <input type="text" placeholder="name">
+        <input type="date" placeholder="birthday">
+        <input type="number" placeholder="zip">
+        <input type="text" placeholder="city">
+    </form>
+  `
+})
+export class AppUserForm {
+
+  @Output()
+  event = new EventEmitter<{ email: string; name: string; birthday: Date; address: { zip: number; city: string; };}>;
+  
+  constructor(
+    private formBuilder: FormBuilder
+  ) {
+  }
+
+  doSubmit(): void {
+    this.event.emit(...);
+  }
+}
+```
+
 ## Exercice: CSS & Bootstrap
 
 ![image](uploads/0388377207d10f8732e1d64623a255b6/image.png)
