@@ -172,7 +172,7 @@ MongoDb collection `users` with schema
   }
 ```
 
-Complete the query, you have a variable which contains a piece of the text to find. Search by email, first name or last name and only users logged in for 6 months
+Complete the query, you have a variable that contains a piece of text to search for. Search by exact email, starts with first or last name and only users logged in for 6 months
 
 ``` typescript
 db.collections('users').find(...);
