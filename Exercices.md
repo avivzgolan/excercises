@@ -150,7 +150,9 @@ export class AppUserForm {
 }
 ```
 
-## Exercice: CSS & Bootstrap _(5 points)_
+# CSS & Bootstrap
+
+## Exercice: Card _(5 points)_
 
 ![image](uploads/0388377207d10f8732e1d64623a255b6/image.png)
 
