@@ -41,7 +41,9 @@ function getPlurial() {
 Write unit tests in jest for the function below in typescript
 
 ```typescript
-getCapitalizeFirstWord(name: string): string {
+import { expect, test } from '@jest/globals';
+
+function getCapitalizeFirstWord(name: string): string {
     if (!name) {
        return name;
     }
@@ -49,11 +51,11 @@ getCapitalizeFirstWord(name: string): string {
        n => n.length > 1 ? (n.substring(0, 1).toUpperCase() + n.substring(1).toLowerCase()) : n
     ).join(' ');
 }
+
+test('1. test', async function () {
+    ...
+});
 ```
-
-```typescript
-
-```typescript
 
 # Angular
 
