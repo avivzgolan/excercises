@@ -116,7 +116,7 @@ The form should return data in this format
   birthday?: Date; // Not mandatory, must be less than today
   address: { // mandatory
     zip: number; // mandatory
-    city: string; // mandatory, must contains only alpha
+    city: string; // mandatory, must contains only alpha uppercase and lower and space
   };
 }
 ```
