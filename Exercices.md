@@ -111,12 +111,12 @@ The form should return data in this format
 
 ```typescript
 {
-  email: string;
-  name: string;
-  birthday: Date;
-  address: {
-    zip: number;
-    city: string;
+  email: string; // mandatory, must be a email
+  name: string; // mandatory, max 128 characters
+  birthday?: Date; // Not mandatory, must be less than today
+  address: { // mandatory
+    zip: number; // mandatory
+    city: string; // mandatory, must contains only alpha
   };
 }
 ```
