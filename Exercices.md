@@ -197,3 +197,39 @@ Complete the aggregation so that it sends user emails by role ({_id: 'role', use
 ``` typescript
 db.collections('users').aggregate(...);
 ```
+
+# Exercice: MongoDb update _(5 points)_
+
+MongoDb collection `users` with schema
+
+``` typescript
+  {
+    email: string;
+    first_name: string;
+    last_name: string;
+    roles: string[];
+    last_connection_date: Date;
+    addresses: {
+        zip: number;
+        city: string;
+    }[]:
+  }
+```
+
+Update document `ObjectId("5cd96d3ed5d3e20029627d4a")`, modify only `last_connection_date` with current date
+
+``` typescript
+db.collections('users').updateOne(...);
+```
+
+Update document `ObjectId("5cd96d3ed5d3e20029627d4a")`, add a role `admin`
+
+``` typescript
+db.collections('users').updateOne(...);
+```
+
+Update document `ObjectId("5cd96d3ed5d3e20029627d4a")`, modify addresses with zip `75001` and replace city with `Paris 1`
+
+``` typescript
+db.collections('users').updateOne(...);
+```
