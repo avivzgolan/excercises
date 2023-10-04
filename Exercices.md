@@ -1,6 +1,6 @@
 # NodeJs
 
-## Exercice: Is there a problem?
+## Exercice: Is there a problem? _1 points_
 
 ```javascript
 // Call web service and return count user, (got is library to call url)
@@ -15,7 +15,7 @@ async function computeResult() {
 }
 ```
 
-## Exercice: Is there a problem?
+## Exercice: Is there a problem? _2 points_
 
 ```javascript
 // Call web service and return total vehicles, (got is library to call url)
@@ -38,7 +38,7 @@ function getPlurial() {
 
 # Angular
 
-## Exercice: Is there a problem and improve the code
+## Exercice: Is there a problem and improve the code _5 points_
 
 ```typescript
 @Component({
@@ -79,7 +79,7 @@ export class AppUsers implements OnInit {
 }
 ```
 
-## Exercice: Improve performance
+## Exercice: Improve performance _5 points_
 
 ```typescript
 @Component({
@@ -103,7 +103,7 @@ export class AppUsers {
 }
 ```
 
-## Exercice: Forms
+## Exercice: Forms _8 points_
 
 Complete and modify `AppUserForm` class to use Angular Reactive Forms. Add a button to submit.
 
@@ -150,13 +150,13 @@ export class AppUserForm {
 }
 ```
 
-## Exercice: CSS & Bootstrap
+## Exercice: CSS & Bootstrap _5 points_
 
 ![image](uploads/0388377207d10f8732e1d64623a255b6/image.png)
 
 # MongoDb
 
-## Exercice: MongoDb request
+## Exercice: MongoDb request _3 points_
 
 MongoDb collection `users` with schema
 
@@ -178,7 +178,7 @@ db.collections('users').find(...);
 
 What should be added to the collection so that the query is not slow?
 
-## Exercice: MongoDb aggregate
+## Exercice: MongoDb aggregate _5 points_
 
 MongoDb collection `users` with schema
 
