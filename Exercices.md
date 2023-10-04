@@ -36,6 +36,25 @@ function getPlurial() {
 }
 ```
 
+## Exercice: Unit test _(2 points)_
+
+Write unit tests in jest for the function below in typescript
+
+```typescript
+getCapitalizeFirstWord(name: string): string {
+    if (!name) {
+       return name;
+    }
+    return name.split(' ').map(
+       n => n.length > 1 ? (n.substring(0, 1).toUpperCase() + n.substring(1).toLowerCase()) : n
+    ).join(' ');
+}
+```
+
+```typescript
+
+```typescript
+
 # Angular
 
 ## Exercice: Is there a problem and improve the code _(5 points)_
