@@ -198,7 +198,7 @@ Complete the aggregation so that it sends user emails by role ({_id: 'role', use
 db.collections('users').aggregate(...);
 ```
 
-# Exercice: MongoDb update _(5 points)_
+## Exercice: MongoDb update _(5 points)_
 
 MongoDb collection `users` with schema
 
