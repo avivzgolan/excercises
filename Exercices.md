@@ -105,7 +105,7 @@ export class AppUsers {
 
 ## Exercice: CSS & Bootstrap
 
-![image](uploads/afae62a0501a27f97c8982b8f37da99d/image.png)
+![image](uploads/0388377207d10f8732e1d64623a255b6/image.png)
 
 # MongoDb
 
